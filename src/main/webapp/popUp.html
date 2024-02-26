@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script>
+function setPopUpStart(obj) {
+	let expireDate = new Date();
+	console.log(obj.checked);
+	if(obj.checked) {
+		console.log(expireDate.getDate()+1);
+	}
+	
+}
+</script>
+</head>
+<body>
+<br>
+<br>
+<br>
+<br>
+팝업
+<br>
+<br>
+<br>
+<br>
+<br>
+<input type ="checkbox" onClick="setPopUpStart(this)">오늘 팝업창 띄우지 않기
+</body>
+</html>
